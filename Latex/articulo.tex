@@ -1,0 +1,391 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Plantilla para un artículo en LaTeX en español.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+
+% Esto es para poder escribir acentos directamente:
+\usepackage[latin1]{inputenc}
+% Esto es para que el LaTeX sepa que el texto está en español:
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+% Paquetes de la AMS:
+\usepackage{amsmath, amsthm, amsfonts}
+
+
+
+
+
+
+% De la misma forma se pueden definir comandos con argumentos. Por
+% ejemplo, aquí definimos un comando para escribir el valor absoluto
+% de algo más fácilmente.
+%--------------------------------------------------------------------------
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+
+% Operadores.
+% Los operadores nuevos deben definirse como tales para que aparezcan
+% correctamente. Como ejemplo definimos en jacobiano:
+%--------------------------------------------------------------------------
+\DeclareMathOperator{\Jac}{Jac}
+
+%---
+
+
+\author{INTEGRANTES :\\
+  \small -lamilla vera kevin \\
+  \small                  \\
+  \small -Jaramillo valeria nicole \\
+  \small                  \\
+  \small CURSO : MA 3 -2 \\
+  \small                  \\ 
+  \small PROFESOR : BOTTO TOBAR MIGUEL ANGEL  \\
+  \small                      \\
+  \small PROYECTO DE PROCESOS \\
+  \small 
+}
+
+\title{{\includegraphics[width=0.30\textwidth]{logo} &  \includegraphics[scale=0.40]{imagen.jpg}}
+	\\ UNIVERSIDAD DE GUAYAQUIL
+	\\FACULTAD DE CIENCIAS MATEMATICAS Y FISICAS
+	\\NORMA  ISO 9001 APLICADA EN UNA EMPRESA DE DESAROLLO DE SOFTWARE 
+	
+	
+}
+
+\begin{document}
+\maketitle
+
+\abstract{Se documenta la aplicacion de las normas 9001 en un software de empresa en latex analizando el desarrollo y el diseno del software, utilizando el software TEXSTUDIO .}
+
+\section{Introducción  }
+
+La empresa TPV 123 desarrollo un software que gestiona visualmente las reservas de mesas para cualquier horario de comida o día de la semana, con la antelación suficiente para que los clientes disfruten de un buen servicio , lo cual  tendremos  un orden y un ambiente limpio para que sea de facil entendimiento a la hora de manipular el software.           
+
+\section{Aplicación de la norma ISO 9001  }
+
+EL software sobre HOSTELERÍA de la empresa TPV 123  establece, implanta y mantiene el proceso de diseño y desarrollo de forma adecuada para asegurarse de que se cumpla la provisión de productos y servicios.
+
+
+La planificacion del diseno y desarrollo se realizara en las siguientes etapas:
+
+
+\subsection{Planificación del diseño y desarrollo}\label{sec:kevin}
+
+El software de HOSTELERÍA esta creado y planificado  para sastifaccion de una pequena y mediana  empresa de tipo restaurante  en la cual ayudara a gestionar las reservas de las mesas ya sea si estan disponibles o no mediante una base de datos , registro de personal que trabaja en el local , ingreso  de menu de comida es un software muy completo a la hora de gestionar bares y restaurantes .Debe ser importante la exigencia legal para el uso del programa, debe quedar constancia de que la empresa debe estar devidamente registrada y legalizada ademas  de contar con los respectivos permisos necesarios para poner en marcha el negocio.
+Se agregaron las siguientes caracteristicas en la estructura  sistema :
+\\
+\begin{itemize}
+.Tiene un apartado para crear un menú con diferentes opciones para seleccionar un primer plato, un segundo plato y un postre o bebida a un único precio.
+\\
+\\.Contiene un apartado de mantenimiento en donde se puede hacer el registro de clientes, empleados, productos, proveedores, formas de pago.
+\\
+\\.Gestiona cómodamente los pedidos telefónicos. Puedes ir seleccionando los productos de tu clientes y en cualquier momento informar del importe total del pedido.
+\\
+\\.Tiene un apartado para acceder al control del almacén y la administración de los productos, conociendo las existencias disponibles para vender y lo que tienes que pedir al proveedor.
+\\
+\\.Permite modificar la configuración regional, el ticket de venta, el número de decimales y todo lo relacionado con el programa.
+\\
+\\.Tiene un apartado para imprimir o visualizar los listados para gestionar los temas del negocio. Entre otros: presupuestos, facturas realizadas, gastos, beneficios, listados de impuestos, etc.
+\\
+\\.Tiene un apartado de sistema de copia de seguridad que permite guardar en un soporte externo, solo se tendrá que acordarse de hacer los respaldos.
+\\
+\\.Tiene un apartado que  permite ingresar imagenes de todos los platos del menu para cuando el cliente pida un menu solo se tenga que guiar por las imagenes y puede ver que lleva el plato y sus ingredientes
+,tambien se puede agregar imagenes de los empleados o de los encargados que administran el negocio.
+\\
+\\.Tiene un apartado para crear productos genericos ,productos elaborados , se puede poner varios precios por producto, se puede añadir subproductos a un producto.
+\\
+\\.Un apartado para ingresar al sistema con usuario y contraseña dando los permisos necesarios a los diferentes empleados y personas que administran el negocio , solo el administrador puede dar los permisos a las diferentes cuentas de los empleados .     
+\\
+\\
+\\
+\includegraphics[width=0.45\textwidth]{menu.jpg} &  \includegraphics[scale=0.20]{registro.jpg}
+\\
+\\
+\\
+\includegraphics[width=0.45\textwidth]{proveedores.jpg} &  \includegraphics[scale=0.20]{portada.jpg}
+\includegraphics[width=0.45\textwidth]{crear.jpg}
+
+
+	
+\end{itemize}
+
+\subsection{ Entradas para el diseño y desarrollo}\label{sec:kevin2}
+Los elementos de entrada son aquellos con los cuales comenzamos a trabajar el diseño y dimensionan lo que debemos cumplir. Consideremos los elementos de entrada que provee el CLON: Cliente, legales, organización, norma.
+
+\subsubsection{ Recopilar informacion de los clientes}\label{sec:kevin2}
+
+Se realizaran varias encuestas a diferentes clientes de la atención ,de los servicios que se ofrece y lo rápido de la atención para ver si nuestro software es lo suficiente fluido para hacer una reservación de una mesa de forma que las colas de clientes se despejara mas rápido, controlar el buen funcionamiento de caja al momento de hacer las facturas en el cual debe detallar todo el servicio que el cliente esta pagando .
+\\
+\\
+De esta forma vamos a recopilar la suficiente información para así poder mejorar la atención al cliente  y la forma de manejar el software .
+Una de las necesidades mas pedidas por los clientes es poder hacer una orden desde la mesa que reservaron mediante un software Mobile , en el cual puedan pedir el menú , los ingredientes que ellos desean, con esto los clientes armaran su plato de comida a su gusto y si el cliente es alérgico a un tipo de ingrediente puede quitarlo del plato .
+\\
+\\
+\includegraphics[width=0.45\textwidth]{encuesta.jpg} &  \includegraphics[scale=0.20]{encuesta1.jpg}
+\subsubsection{ Normativa Legal }\label{sec:kevin2}
+A continuación se especifican los aspectos que el empleado debe conocer respecto
+al uso del software dentro de la organización. 
+\\
+\begin{itemize}
+	.Todos los productos software que sean utilizados por los empleados en los
+	entornos corporativos deberán encontrarse debidamente autorizados y se
+	deberá disponer de la correspondiente licencia. 
+	\\
+	\\
+	.El empleado en ningún caso podrá hacer copia de los productos software
+	puestos a su disposición para el correcto desempeño de sus tareas. 
+	\\
+	\\
+	.Ningún miembro de la empresa instalará o utilizará programas sobre los
+	sistemas de información de la organización para los que no esté autorizado. 
+	\\
+	\\
+	.En caso de que un empleado utilice productos ilegales o productos sobre
+	los que no esté autorizado podrá dar lugar a una sanción disciplinaria, así
+	como acarrear responsabilidades civiles y/o penales derivadas de la
+	legislación vigente.
+	\\
+	\\
+	.Únicamente el área técnica competente tiene la potestad de instalar
+	productos software en los equipos. 
+	\\
+	\\
+	.Se dispondrá de un registro de licencias de software donde se indique la
+	fecha de adquisición, vigencia de la licencia , número de
+	usuarios permitidos , pruebas de la adquisición, y el producto al que hace referencia. Cualquier cambio sobre el software debe indicarse en dicho registro. De esta forma se garantiza el correcto
+	inventariado de las licencias y por tanto la legalidad de los productos software utilizados por la organización. 
+	
+\end{itemize}
+
+\subsubsection{Organización de memorias y documentación de diseños }\label{sec:kevin2}
+  Se debe guardar cada documentación  de  diseño , la fecha y el tipo de diseño que se implemento en esa versión del documento para así poder usarlo en el futuro , ya sea si se quiere ver de donde se origino el error debemos ir a las versiones anteriores del diseño y ver que hicimos mal antes corregirlos y así seguir con  el desarrollo del diseño del software . El diseñador del software debe tener en cuenta que no debe añadir ni mejorar nada sin la autorización del empresario o dueño de la empresa .El diseñador debe respaldar cada actualización que se realice y guardarlos en la nube de la empresa  .
+
+\subsubsection{Norma }\label{sec:kevin2}
+Se utilizo  la ISO / IEC 12207: 2008 que  ofrece un marco de referencia para los procesos del ciclo de vida del software que sirve como referencia para la industria del software. Contiene procesos, actividades y tareas que se aplicarán durante la adquisición de un producto o servicio de software y durante el suministro, desarrollo, operación, mantenimiento y eliminación de productos de software. El termino software se refiere tanto al software como el firmware.
+
+\subsection{ Controles del diseño y desarrollo }\label{sec:kevin2}
+
+Los resultados que deseamos tener son :
+\\
+\\
+\begin{itemize}
+.Agilidad del software  en el registro de pedidos y la distribucion de las mesas a los clientes .
+\\
+\\
+.No consumir tanto recurso informatico para eso debemos disminuir y mejorar los metodos de procesamiento para que con  pocas lineas de programacion, ejecutar varios procesamiento de datos en el sistema de nuestro negocio.
+\\
+\\
+.Al momento de recibir llamadas para hacer pedidos de mesas en el restaurante , mandarlos con un asistente que esta conectada con la base de datos y el asistente le ofresca la cantidad de mesas y la ubicaciones de las mesas ,  mas la hora que puede asistir para ir a comer .
+\\
+\\
+.Controlar las cuentas de los empleados en las diferentes maquinas que ellos operan y haciendo un análisis de toda la configuración del computador para ver si no ahí perdida o fuga de información .
+\\
+\\
+.Tener una interfaz limpia que sea de fácil uso y entendimiento de los empleados y de los administradores de la empresa para sacarle el mejor provecho al software 
+  
+\end{itemize}
+
+\subsubsection{Revisiones  }\label{sec:kevin2}
+
+\begin{itemize}
+En la revisión del software se  analizo que todos los resultados cumplen con  los requisitos establecidos por la norma.
+\\
+\\
+.A continuación se presentan los requisitos que cumple el software :
+\\
+\\
+.Se  Comprobó que todos los objetivos del negocio están cubiertos por elrequisito general
+\\
+\\
+.Se  Comprobó que todos los procesos del negocio están cubiertos por el requisito general
+\\
+\\
+.Se  Comprobó que la redacción del documento es correcta gramatical y ortográficamente.
+\\
+\\
+.Se  Comprobó que el documento de Especificación de Requisitos del Sistema no contiene requisitos ni otra información que de lugar a contradicciones.
+\\
+\\
+.Se  Comprobó que el documento de Especificación de Requisitos del Sistema no contiene requisitos ni otra información que de lugar a redundancias innecesarias.
+\\
+\\
+.El documento tiene un listado de los servicios que van a ser consumidos por el sistema.
+\\
+\\
+.Se incluyo una trazabilidad que contenga la relación existente entre servicios y requisitos
+ (requisitos de integración y restricciones técnicas).
+ \\
+ \\
+.Las verificaciones requeridas son planificadas y las verificaciones se realizan
+\\
+\\
+.El diseño y desarrollo terminado es aceptable y los resultados son consistentes y
+trazables con los requisitos iniciales.
+\\
+\\
+.El diseño y desarrollo terminado es el resultado de la implementación de una
+secuencia apropiada de eventos, entradas, salidas, interfases, flujo lógico, asignación
+de tiempo, etc
+\\
+\\
+.El diseño y desarrollo proporciona seguridad, y cumple con otros requisitos y
+entradas de diseño
+\\
+\\
+.Se cuenta con evidencia para demostrar que los resultados de esa verificación y
+cualquier acción adicional ha sido registrada y confirmada  
+
+
+\end{itemize}
+
+\subsubsection{Se tomaron acciones necesarias para afrontar los problemas  }\label{sec:kevin2}
+
+Si se tomo acciones para afrontar los problemas en el desarrollo del software , documentando todo lo que se hacia en el proceso del diseño y al momento de ocurrir un error en las revisiones  podremos acuidir a las documentaciones anteriores.
+
+ 
+\subsection{ Salidas del diseño y desarrollo }\label{sec:kevin2}
+
+ La empresa tiene que asegurar que las salidas del diseño y el desarrollo:
+ \\
+ \\
+   \begin{itemize}          
+             a) Cumplen con todos los requisitos.
+             \\
+             \\
+             b) Son adecuados para los procesos posteriores a la provisión de productos.
+             \\
+             \\
+             c) Se incluyen todos los requisitos de seguimiento y medición, cuando sea apropiado.
+             \\
+             \\
+             d) Se especifican todas las características de los productos y servicios que resultan esenciales para el propósito perseguido.
+             \\
+             \\
+             La empresa tiene que conservar toda la información documentada para futuras revisiones.
+             \\
+             \\
+ Una vez que se tiene el diseño finalizado, se debe evaluar, antes de entregarlo al cliente que cumple con las especificaciones solicitadas por el cliente, y sirve para el propósito por el que ha estado diseñado. Si procede se deberán hacer las pruebas oportunas para darle validez y poderlo presentar al cliente. Por supuesto debe quedar constancia documental de ello, ya sea con un documento interno, o bien algo tan simple, como la aceptación del diseño por parte del cliente.
+\end{itemize}
+
+\subsection{ Cambios del diseño y desarrollo }\label{sec:kevin2}
+
+La empresa tiene que conservar la información documentada sobre:
+ \begin{itemize} 
+a) Los cambios del diseño y el desarrollo.
+\\
+ \begin{itemize} 
+.Se añadio un seccion de de afiliados a la empresa .
+\\
+\\
+. Capacitaciones de los sistemas de desarrollo.
+\\
+\\
+. Propuestas para facilitar los productos de software.
+\\
+\\
+. Deteccion de errores desde los requerimientos.
+\\
+\\
+. Un ambiente de desarrollo aun mas amigable para los usuarios.
+\\
+\\
+. Dar mantenimiento al software de una manera frecuente.
+\\
+\\
+.facilidad de registro de pedidos para hacerlo mas agil y rapido .
+\\
+\\
+.Mas seguridad a la hora de administrar las cuentas de los empleados para que haya fuga de informacion .
+\\
+\\
+.cambio en la interfas del pedido ,de una forma mas amigable para los clientes.
+\\
+\includegraphics[width=0.50\textwidth]{cambio.jpg}
+\\
+\end{itemize}
+\\
+b) Los resultados de todas las revisiones.
+\\
+\\
+Se mencionaran algunos resultados obtenidos apartir de la planificacion :
+ \begin{itemize} 
+.La planificación estratégica de la organización
+\\
+\\
+.Inteligencia e investigación de mercado
+\\
+\\
+.Reportes de servicio
+\\
+\\
+.Retroalimentación y demandas de clientes
+\\
+\\
+.Requisitos legales y reglamentarios nuevos o con
+cambios
+\\
+\\
+.Cambios en procesos
+\\
+\\
+.Nuevas tecnologías
+\\
+\\
+.Proveedores
+
+\end{itemize}
+\\
+c) La autorización de todos los cambios.
+\\
+\\
+La autorizacion de todos los cambios fueron consultados por el gerente general de la empresa y se rigieron por la documentacion creada para el desarrollo del software y el diseño del mismo .
+\\
+\\
+d) Las acciones que se toman para prevenir los impactos adversos.
+\\
+\\
+\begin{itemize} 
+- descripción del riesgo: en esta sección se documenta lo referente al origen del riesgo, causa que lo provoca, impactos y consecuencias que genera.
+\\
+\\
+. probabilidad de ocurrencia: se recopila la información relacionada con la probabilidad de ocurrencia con que se presenta el factor de riesgo identificado.
+\\
+\\
+.intensidad del riesgo: esta sección recoge la información relativa a la relación del riesgo con otras actividades u otros riesgos.
+\\
+\\
+. impacto: se refiere al impacto del factor de riesgo.
+\\
+\\
+. nivel de dominio: está asociado al conocimiento del equipo de trabajo en el manejo de un riesgo identificado.
+\\
+\\
+. tipo de riesgo: esta variable está asociada a la clasificación del riesgo.
+\\
+\\
+. acción de corrección o prevención: en esta sección se orientarán las diferentes acciones que se pueden realizar para gestionar un riesgo y su impacto. Para un riesgo se pueden aplicar una o más estrategias; estas pueden estar encaminadas a mitigar, transferir, evitar, explotar, compartir y mejorar el riesgo.
+\\
+\\
+. exposición al factor de riesgo: esta sección recoge la cuantificación de la exposición al riesgo resultado de la probabilidad por la criticidad.
+\\
+\\
+\end{itemize}
+
+\includegraphics[width=0.90\textwidth]{riesgos.jpg}
+\end{itemize}
+
+\subsection{ Conclusion del Proyecto  }\label{sec:kevin2}
+
+El software fue terminado de forma eficiente , con todos los requisitos y con las normas necesarias para desarrollarlo.Este proyecto tiene como fin agilizar el control de un restaurante , en el proceso de pedir una orden , una mesa , atencion al cliente de forma telefonica para reservar una mesa.La documentacion del software fue echo en noma iso 9001 : 2015 .
+Este proyecto fue echo gracias a la pagina ITV 123 por brindarnos el software para hacer el analisis de su desarrollo .
+
+
+
+\subsection{ URL DEL GITHUB DE LOS REPOSITORIOS  }\label{sec:kevin2}
+
+https://github.com/ValeJr31/PROYECTO_2P
+
+\end{document}
