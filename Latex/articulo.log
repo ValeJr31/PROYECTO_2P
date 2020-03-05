@@ -1,0 +1,956 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.28)  5 MAR 2020 16:29
+entering extended mode
+**./articulo.tex
+(articulo.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (D:\LATEX\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(D:\LATEX\tex/latex/base\size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (D:\LATEX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(D:\LATEX\tex/latex/base\latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+)) (D:\LATEX\tex/generic/babel\babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(D:\LATEX\tex/generic/babel\switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\LATEX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\LATEX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(D:\LATEX\tex/generic/babel\babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count175
+\U@D=\dimen135
+ (D:\LATEX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count176
+)
+\es@quottoks=\toks16
+\es@quotdepth=\count177
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+)) (D:\LATEX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\LATEX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(D:\LATEX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (D:\LATEX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (D:\LATEX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(D:\LATEX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+(D:\LATEX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(D:\LATEX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (D:\LATEX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen138
+)) (D:\LATEX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+)
+(D:\LATEX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count178
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count179
+\leftroot@=\count180
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count181
+\DOTSCASE@=\count182
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count183
+\c@MaxMatrixCols=\count184
+\dotsspace@=\muskip16
+\c@parentequation=\count185
+\dspbrk@lvl=\count186
+\tag@help=\toks19
+\row@=\count187
+\column@=\count188
+\maxfields@=\count189
+\andhelp@=\toks20
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (D:\LATEX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks28
+) (D:\LATEX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(D:\LATEX\tex/latex/l3backend\l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count190
+\l__pdf_internal_box=\box47
+) (articulo.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+
+LaTeX Warning: Label `sec:kevin2' multiply defined.
+
+)
+\openout1 = `articulo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+ (D:\LATEX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count191
+\scratchdimen=\dimen147
+\scratchbox=\box48
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen148
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks30
+) (D:\LATEX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+<logo.png, id=1, 501.7947pt x 501.7947pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 59.
+(pdftex.def)             Requested size: 103.50105pt x 103.49643pt.
+
+! Misplaced alignment tab character &.
+\@title ...raphics [width=0.30\textwidth ]{logo} &
+                                                   \includegraphics [scale=0...
+l.59 \maketitle
+               
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<imagen.jpg, id=3, 242.9075pt x 208.78pt>
+File: imagen.jpg Graphic file (type jpg)
+<use imagen.jpg>
+Package pdftex.def Info: imagen.jpg  used on input line 59.
+(pdftex.def)             Requested size: 97.16127pt x 83.5105pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+
+(D:\LATEX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+
+ (D:\LATEX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1
+
+{C:/Users/Gaming/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.png
+> <./imagen.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
+
+ []
+
+<menu.jpg, id=14, 803.0pt x 602.25pt>
+File: menu.jpg Graphic file (type jpg)
+<use menu.jpg>
+Package pdftex.def Info: menu.jpg  used on input line 104.
+(pdftex.def)             Requested size: 155.24895pt x 116.432pt.
+! Misplaced alignment tab character &.
+l.104 ...raphics[width=0.45\textwidth]{menu.jpg} &
+                                                    \includegraphics[scale=0...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<registro.jpg, id=15, 803.0pt x 602.25pt>
+File: registro.jpg Graphic file (type jpg)
+<use registro.jpg>
+Package pdftex.def Info: registro.jpg  used on input line 104.
+(pdftex.def)             Requested size: 160.59715pt x 120.44786pt.
+<proveedores.jpg, id=16, 803.0pt x 602.25pt>
+File: proveedores.jpg Graphic file (type jpg)
+<use proveedores.jpg>
+Package pdftex.def Info: proveedores.jpg  used on input line 108.
+(pdftex.def)             Requested size: 155.24895pt x 116.432pt.
+! Misplaced alignment tab character &.
+l.108 ...[width=0.45\textwidth]{proveedores.jpg} &
+                                                    \includegraphics[scale=0...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<portada.jpg, id=17, 803.0pt x 602.25pt>
+File: portada.jpg Graphic file (type jpg)
+<use portada.jpg>
+Package pdftex.def Info: portada.jpg  used on input line 108.
+(pdftex.def)             Requested size: 160.59715pt x 120.44786pt.
+<crear.jpg, id=18, 803.0pt x 602.25pt>
+File: crear.jpg Graphic file (type jpg)
+<use crear.jpg>
+Package pdftex.def Info: crear.jpg  used on input line 109.
+(pdftex.def)             Requested size: 155.24895pt x 116.432pt.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Overfull \hbox (46.95724pt too wide) in paragraph at lines 81--113
+[]  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--113
+
+ []
+
+
+Overfull \hbox (46.95724pt too wide) in paragraph at lines 81--113
+[]  []
+ []
+
+[2] [3 <./menu.jpg> <./registro.jpg> <./proveedores.jpg> <./portada.jpg>]
+<encuesta.jpg, id=26, 246.6816pt x 185.0112pt>
+File: encuesta.jpg Graphic file (type jpg)
+<use encuesta.jpg>
+Package pdftex.def Info: encuesta.jpg  used on input line 127.
+(pdftex.def)             Requested size: 155.24895pt x 116.4391pt.
+
+! Misplaced alignment tab character &.
+l.127 ...ics[width=0.45\textwidth]{encuesta.jpg} &
+                                                    \includegraphics[scale=0...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<encuesta1.jpg, id=27, 803.0pt x 481.8pt>
+File: encuesta1.jpg Graphic file (type jpg)
+<use encuesta1.jpg>
+Package pdftex.def Info: encuesta1.jpg  used on input line 127.
+(pdftex.def)             Requested size: 160.59715pt x 96.35829pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--128
+
+ []
+
+
+Overfull \hbox (24.95724pt too wide) in paragraph at lines 120--128
+[]  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--132
+
+ []
+
+[4 <./crear.jpg> <./encuesta.jpg> <./encuesta1.jpg>]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--161
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 171--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--174
+
+ []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--189
+
+ []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--242
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+
+ []
+
+[7]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279  \begin{itemize}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<cambio.jpg, id=42, 2503.3525pt x 1318.9275pt>
+File: cambio.jpg Graphic file (type jpg)
+<use cambio.jpg>
+Package pdftex.def Info: cambio.jpg  used on input line 306.
+(pdftex.def)             Requested size: 172.5pt x 90.86522pt.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.308 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--308
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.310 b
+       ) Los resultados de todas las revisiones.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--314
+
+ []
+
+[8 <./cambio.jpg>]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.339 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--339
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 c
+       ) La autorización de todos los cambios.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--350
+
+ []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.375 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--375
+
+ []
+
+[9]
+<riesgos.jpg, id=49, 395.97937pt x 298.11375pt>
+File: riesgos.jpg Graphic file (type jpg)
+<use riesgos.jpg>
+Package pdftex.def Info: riesgos.jpg  used on input line 377.
+(pdftex.def)             Requested size: 310.4979pt x 233.76053pt.
+
+Overfull \hbox (37.49796pt too wide) in paragraph at lines 377--378
+[][] 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.389 https://github.com/ValeJr31/PROYECTO_
+                                           2P
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.390 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.390 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Too many }'s.
+\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.390 
+      
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[10 <./riesgos.jpg>] (articulo.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3061 strings out of 481556
+ 40047 string characters out of 2932496
+ 293621 words of memory out of 3000000
+ 18267 multiletter control sequences out of 15000+200000
+ 541000 words of font info for 57 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,7n,35p,661b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/LATEX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/LATEX/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb><D:/LATEX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
+D:/LATEX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/LATEX/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><D:/LATEX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/LA
+TEX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/LATEX/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb><D:/LATEX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on articulo.pdf (10 pages, 1059653 bytes).
+PDF statistics:
+ 84 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
